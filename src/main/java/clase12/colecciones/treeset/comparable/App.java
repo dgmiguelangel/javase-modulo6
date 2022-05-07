@@ -1,14 +1,14 @@
-package clase11.colecciones.set.linkedhashset;
+package clase12.colecciones.treeset.comparable;
 
 import java.util.Iterator;
-import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class App {
 
 	public static void main(String[] args) {
 		
-		Set<String> nombres = new LinkedHashSet<>();
+		Set<String> nombres = new TreeSet<>();
 		
 		nombres.add("juan");// agregamos un elemanto
 		nombres.add("pedro");
